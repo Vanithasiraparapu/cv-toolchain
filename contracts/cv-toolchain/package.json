@@ -1,6 +1,6 @@
 {
   "engines": {
-    "composer": "^0.20.7"
+    "composer": "^0.19.5"
   },
   "name": "cv-toolchain",
   "version": "0.0.1",
@@ -19,14 +19,14 @@
   "email": "bhanugcloud02@gmail.com",
   "license": "Apache-2.0",
   "devDependencies": {
-    "composer-admin": "^0.20.7",
-    "composer-cli": "^0.20.7",
- "composer-rest-server": "^0.20.7",
-"generator-hyperledger-composer": "^0.20.7",
-    "composer-client": "^0.20.7",
-    "composer-common": "^0.20.7",
-    "composer-connector-embedded": "^0.20.7",
-    "composer-cucumber-steps": "^0.20.7",
+    "composer-admin": "^0.19.5",
+    "composer-cli": "^0.19.5",
+ "composer-rest-server": "^0.19.5",
+"generator-hyperledger-composer": "^0.19.5",
+    "composer-client": "^0.19.5",
+    "composer-common": "^0.19.5",
+    "composer-connector-embedded": "^0.19.5",
+    "composer-cucumber-steps": "^0.19.5",
     "chai": "latest",
     "chai-as-promised": "latest",
     "cucumber": "^2.2.0",
