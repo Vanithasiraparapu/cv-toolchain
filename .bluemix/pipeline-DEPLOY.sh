@@ -105,7 +105,7 @@ function deploy_fabric_contract {
     echo deploying fabric contract ${CONTRACT}
     pushd contracts/${CONTRACT}
     source version.env
-    CHAINCODE_FILES=$(find . -name "*.node")
+    CHAINCODE_FILES=$(find . -name "*.go")
     CHAINCODE_FILE_OPTS=""
     CHANNEL=defaultchannel
     for CHAINCODE_FILE in ${CHAINCODE_FILES}
